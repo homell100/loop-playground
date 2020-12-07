@@ -14,9 +14,11 @@
  let numeroFinal=10;
  // Elimina el código siguiente y codifica la solución
  
- dibujarCirculo()
- dibujarCirculo()
- dibujarCirculo()
+ var i = numeroInicial
+while( i < numeroFinal){
+  dibujarCirculo();
+  i++
+}
 
 
  
@@ -32,3 +34,9 @@ let tocaHexagono = 4;
  * circulo circulo circulo círculo hexagono círculo círculo círculo círculo círculo
  * 
  */
+
+i = numeroInicial
+while( i < numeroFinal){
+  (i == tocaHexagono) ? dibujarHexagono() : dibujarCirculo();
+  i++
+}

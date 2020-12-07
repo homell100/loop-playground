@@ -26,6 +26,26 @@
 
 let hora_actual = 8;
 let hora_dormir = 24;
+let message;
+
+for( var i = hora_actual; i< hora_dormir; i++){
+    if(i == 8){
+        message = "se despierta";
+    }else if(i == 9){
+        message = "desayuna";
+    }else if(i >= 10 && i <= 16){
+        message = "estudia Front End";
+    }else if( i == 17){
+        message = "hace una siesta";
+    }else if(i >= 18 && i <= 21){
+        message = "tiene tiempo libre";
+    }else if(i == 22){
+        message = "cena";
+    }else if(i == 23){
+        message = "se va a dormir";
+    }
+    console.log(`A las ${i}, el sim ${message}`);
+}
 
 
 

@@ -9,7 +9,36 @@
  * 
  */
 
-let mes = 4;
+let mes = 1;
+
+var ans;
+
+switch(mes){
+    case 1:
+    case 2:
+    case 3:
+        ans = "Estamos en el primer cuatrimestre";
+        break;
+    case 4:
+    case 5:
+    case 6:
+        ans = "Estamos en el segundo cuatrimestre";
+        break;
+    case 7:
+    case 8:
+    case 9:
+        ans = "Estamos en el tercer cuatrimestre";
+        break;
+    case 10: 
+    case 11:
+    case 12: 
+        ans = "Estamos en el cuarto cuatrimestre";
+        break;
+    default:   
+        ans = "Error en el mes";
+}
+
+console.log(ans);
 
 // Escribir a partir de aquí
 
